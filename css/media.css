@@ -1,0 +1,56 @@
+/* Small devices  */
+@media (min-width: 576px) { 
+   
+}
+
+/* Medium devices  */
+@media (max-width: 768px) {
+    #home{
+        height: 100vh;
+        width: 1000px;
+    }
+    .carousel-caption {
+        position: absolute;
+    left: 25%;
+    top: 30%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    }
+    #about{
+        padding: 0px 0;
+    }
+    .shape{
+        position: absolute;
+        width: 26px;
+        height: 40px;
+        border-radius: 13px;
+        background: transparent;
+        margin: 0 auto;
+        z-index: 30;
+        left: 25%;
+        bottom: 0%;
+        top: 50%;
+       
+      }
+      .carousel-control-next {
+        right: auto; 
+        top: 10%;
+        left: -6%;
+       
+        
+      }
+}
+/* Large devices  */
+@media (min-width: 992px) {
+  
+ }
+
+/* X-Large devices */
+@media (min-width: 1200px) { 
+
+ }
+
+/* XX-Large devices */
+@media (min-width: 1400px) { }
